@@ -8,5 +8,5 @@ mi_complejo = 5 + 7j
 print(mi_complejo)
 
 
-mi_numero = input('Ingrese un valor')
+mi_numero = input('Ingrese un valor numérico')
 print('el valor ingresado fue', mi_numero)
