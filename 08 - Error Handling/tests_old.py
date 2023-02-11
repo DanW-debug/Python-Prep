@@ -1,9 +1,10 @@
+
 import unittest
 import os
 import checkpoint as ch
 
 class PruebaHenryChallenge(unittest.TestCase):
-    
+
     def test_Factorial_01(self):
       valor_test = ch.Factorial(5)
       valor_esperado = 120
@@ -43,7 +44,7 @@ class PruebaHenryChallenge(unittest.TestCase):
       self.assertEqual(valor_test, valor_esperado)
 
     def test_ClaseAnimal_02(self):
-      a = ch.ClaseAnimal('perro','negro')
+      a = ch.ClaseAnimal('ballena','azul')
       for i in range(0,10):
         valor_test = a.CumplirAnios()
       valor_esperado = 10
@@ -73,4 +74,3 @@ print('Total Tests:', str(hc_tests))
 print('Total Fallas:', str(hc_fallas))
 print('Total Errores:', str(hc_errores))
 print('Total Correctos:', str(hc_ok))
-
